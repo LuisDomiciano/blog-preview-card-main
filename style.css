@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-min: hsl(0, 0%, 42%);
+  --gray-max: hsl(0, 0%, 7%);
+  --fontsize-p: 16px;
+}
+
+body {
+  background-color: var(--yellow);
+  padding: 5%;
+}
+
+p {
+  font-size: var(--fontsize-p);
+  margin-top: 10px;
+}
+
+h1 {
+  font-weight: 800;
+  color: var(--gray-max);
+  font-size: x-large;
+  margin-top: 20px;
+}
+
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+h2 {
+  color: var(--gray-max);
+  font-weight: bold;
+  font-size: var(--fontsize-p);
+}
+
+span {
+  font-weight: bold;
+  background-color: var(--yellow);
+  padding: 5px;
+}
+
+.container {
+  max-width: 375px;
+  background-color: var(--white);
+  border-radius: 5%;
+  border: solid 1px var(--gray-max);
+  margin: 0 auto;
+  box-shadow: 10px 5px 5px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  padding: 20px;
+}
+
+.card__image > img {
+  width: 100%;
+}
+
+.card__illustration {
+  border-radius: 5%;
+}
+
+.card__body {
+  padding: 20px;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card__footer > h2 {
+  font-weight: 800;
+  display: flex;
+}
+
+.description {
+  color: var(--gray-min);
+  font-weight: 500;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 20px;
+}
