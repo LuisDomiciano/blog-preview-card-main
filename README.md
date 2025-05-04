@@ -10,8 +10,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LuisDomiciano/frontendmentor/tree/main/blog-preview-card-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/LuisDomiciano/blog-preview-card-main)
+- Live Site URL: [live site URL here](https://luisdomiciano.github.io/blog-preview-card-main/)
 
 ## My process
 
